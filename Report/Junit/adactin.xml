@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="113.86" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-10-11T17:06:38.944467800Z">
+<testcase classname="User Have to Validate the Connect System Functionality in Monogoto Application" name="Verify connect system" time="15.497">
+<system-out><![CDATA[
+Given User launch the monogoto page.........................................passed
+When User click connect system button.......................................passed
+Then User should be in connect system page..................................passed
+And User close the browser..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify options from monogoto Application" name="Verify invalid login attempt - #1.1" time="17.78">
+<system-out><![CDATA[
+Given User launch the monogoto page.........................................passed
+And User click the login button.............................................passed
+When User enters the email ID "Sweety12@gmail.com"..........................passed
+And User enters the password "345678".......................................passed
+And User declines the cookies...............................................passed
+And User submit the login details...........................................passed
+And User should get the error message.......................................passed
+And User close the browser..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify options from monogoto Application" name="Verify options count and details - #1.1" time="10.546">
+<system-out><![CDATA[
+Given User launch the monogoto page.........................................passed
+Then User verify the option "Solutions" and "5".............................passed
+And User close the browser..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify options from monogoto Application" name="Verify options count and details - #1.2" time="11.341">
+<system-out><![CDATA[
+Given User launch the monogoto page.........................................passed
+Then User verify the option "Network" and "5"...............................passed
+And User close the browser..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify options from monogoto Application" name="Verify options count and details - #1.3" time="11.227">
+<system-out><![CDATA[
+Given User launch the monogoto page.........................................passed
+Then User verify the option "Verticals" and "10"............................passed
+And User close the browser..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify options from monogoto Application" name="Verify options count and details - #1.4" time="13.722">
+<system-out><![CDATA[
+Given User launch the monogoto page.........................................passed
+Then User verify the option "Labs" and "10".................................passed
+And User close the browser..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify options from monogoto Application" name="Verify options count and details - #1.5" time="10.905">
+<system-out><![CDATA[
+Given User launch the monogoto page.........................................passed
+Then User verify the option "Company" and "4"...............................passed
+And User close the browser..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify options from monogoto Application" name="Verify options count and details - #1.6" time="11.027">
+<system-out><![CDATA[
+Given User launch the monogoto page.........................................passed
+Then User verify the option "Pricing" and "4"...............................passed
+And User close the browser..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify options from monogoto Application" name="Verify options count and details - #1.7" time="11.205">
+<system-out><![CDATA[
+Given User launch the monogoto page.........................................passed
+Then User verify the option "Resources" and "4".............................passed
+And User close the browser..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
